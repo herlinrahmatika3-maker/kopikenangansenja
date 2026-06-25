@@ -1,0 +1,25 @@
+.ulasan-card {
+  border-left: 4px solid #c8842a;
+  transition: transform 0.2s;
+}
+
+.ulasan-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(200, 132, 42, 0.15);
+}
+
+.product-card, .form-card {
+  border-left: 4px solid #3d1c00;
+}
+
+.form-card .card-header {
+  background: #fff7eb;
+}
+
+.form-card label {
+  font-weight: 600;
+}
+
+.review-card {
+  border-left: 4px solid #c8842a;
+}
